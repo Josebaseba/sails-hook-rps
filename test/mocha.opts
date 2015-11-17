@@ -1,0 +1,4 @@
+--recursive
+--slow 300
+--timeout 10000
+--require should

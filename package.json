@@ -1,0 +1,35 @@
+{
+  "name": "sails-hook-rps",
+  "description": "Get an accurate view of the requests per second that your sails application handles",
+  "version": "0.0.0",
+  "author": {
+    "name": "Joseba Legarreta",
+    "email": "josebalega@gmail.com",
+    "url": "https://github.com/Josebaseba"
+  },
+  "bugs": {
+    "url": "https://github.com/josebaseba/sails-hook-rps/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sails": "~0.11.0",
+    "should": "*",
+    "mocha": "*",
+    "loadtest": "~1.3.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.4.0"
+  },
+  "homepage": "https://github.com/josebaseba/sails-hook-rps",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": "josebaseba/sails-hook-rps",
+  "scripts": {
+    "test": "mocha"
+  },
+  "sails": {
+    "isHook": true
+  }
+}
